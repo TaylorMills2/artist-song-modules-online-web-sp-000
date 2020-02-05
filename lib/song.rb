@@ -8,7 +8,6 @@ attr_accessor :name
   include Memorable::InstanceMethods
   include Paramable::InstanceMethods
 
-  
 
   @@songs = []
 
