@@ -15,6 +15,9 @@ attr_accessor :name
     @@songs
   end
 
+  def initialize
+    self.class.all << self
+  end
 
   def artist=(artist)
     @artist = artist
